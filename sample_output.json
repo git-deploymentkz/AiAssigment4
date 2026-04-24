@@ -1,0 +1,98 @@
+[
+  {
+    "ticket_id": "T004",
+    "subject": "URGENT - Entire platform down for all 50 users",
+    "body": "CRITICAL: Our entire team of 50 people cannot access the platform at all...",
+    "department": "Technical",
+    "urgency": "Critical",
+    "issue_summary": "The entire platform is inaccessible for a 50-person team, causing severe business disruption with a major client demo imminent.",
+    "root_cause": "A system-wide outage is affecting all users, likely due to a server failure, database crash, or infrastructure issue.",
+    "suggested_action": "Immediately escalate to the on-call engineering team, check server status and logs, and provide the customer with a status update and ETA within 15 minutes.",
+    "sentiment": "Angry",
+    "draft_reply": {
+      "subject": "Re: URGENT - Entire platform down for all 50 users [CRITICAL - Immediate Action]",
+      "body": "Dear Valued Customer,\n\nI want to assure you that this is our absolute top priority right now. I completely understand the severity of this situation — a platform outage affecting your entire team with a client demo in 90 minutes is unacceptable, and I sincerely apologize for the disruption this is causing.\n\nHere is what we are doing right now:\n1. Your ticket has been escalated to our senior engineering team as a P0 (highest priority) incident.\n2. Our on-call engineers are investigating the root cause as of this moment.\n3. We are targeting full restoration within the next 30-45 minutes.\n\nI will personally send you a status update every 15 minutes until the platform is fully restored. If the situation persists beyond 30 minutes, we will arrange an emergency bridge call with our technical team.\n\nAgain, I am deeply sorry for this impact. We take full responsibility and will ensure this is resolved as quickly as humanly possible.\n\nBest regards,\nSupport Team"
+    }
+  },
+  {
+    "ticket_id": "T006",
+    "subject": "Account suspended without any warning or notice",
+    "body": "My account was suspended without any prior notice or explanation...",
+    "department": "Account",
+    "urgency": "Critical",
+    "issue_summary": "The customer's account was suspended without notice, blocking access to 3 years of critical business data.",
+    "root_cause": "The account suspension may be due to an automated policy trigger (e.g., payment failure, suspicious activity detection) or an administrative error.",
+    "suggested_action": "Immediately review the account suspension reason in the admin panel, contact the customer with a full explanation, and restore access if the suspension was erroneous.",
+    "sentiment": "Angry",
+    "draft_reply": {
+      "subject": "Re: Account suspended without any warning or notice [URGENT - Account Restored]",
+      "body": "Dear Customer,\n\nI sincerely apologize for the distress this has caused. Having your account suspended without warning — especially with years of critical data at stake — is completely unacceptable, and I understand your frustration.\n\nI have escalated your case to our Account Recovery team as a critical priority. Here is what happens next:\n1. Our team will review your account status within the next 30 minutes.\n2. You will receive a full explanation of why the suspension was triggered.\n3. If this was an error on our part, your account will be restored immediately.\n\nYou will hear back from us within 1 hour with a full resolution or clear next steps. Your data is safe and has not been deleted.\n\nThank you for your patience.\n\nBest regards,\nSenior Support Team"
+    }
+  },
+  {
+    "ticket_id": "T002",
+    "subject": "Overcharged on my monthly bill",
+    "body": "I was charged $299 this month but my subscription is $99/month...",
+    "department": "Billing",
+    "urgency": "High",
+    "issue_summary": "The customer was overcharged $200 on their monthly bill, causing a bank overdraft and additional fees.",
+    "root_cause": "A billing system error likely applied a wrong plan or failed to apply a discount, resulting in a 3x overcharge.",
+    "suggested_action": "Verify the customer's subscription plan in the billing system, issue a $200 refund immediately, and investigate the billing error to prevent recurrence.",
+    "sentiment": "Angry"
+  },
+  {
+    "ticket_id": "T001",
+    "subject": "Cannot login to my account",
+    "body": "I have been unable to login for the past 2 hours...",
+    "department": "Technical",
+    "urgency": "High",
+    "issue_summary": "The customer cannot log in despite multiple password resets, with an urgent deadline approaching.",
+    "root_cause": "Possible causes include a cached session conflict, account lock-out from too many failed attempts, or an authentication service issue.",
+    "suggested_action": "Manually clear the customer's active sessions, unlock the account if locked, and verify the authentication service status.",
+    "sentiment": "Neutral"
+  },
+  {
+    "ticket_id": "T007",
+    "subject": "Dashboard very slow on Firefox browser",
+    "body": "The main dashboard takes about 10 to 15 seconds to load when using Firefox...",
+    "department": "Technical",
+    "urgency": "Normal",
+    "issue_summary": "Dashboard load time is 10-15 seconds on Firefox 126.0, while other browsers are unaffected.",
+    "root_cause": "A browser-specific compatibility issue, possibly related to a JavaScript API or CSS feature that Firefox handles differently.",
+    "suggested_action": "Reproduce the issue internally on Firefox 126.0, check browser console for errors, and create a bug report for the frontend team.",
+    "sentiment": "Neutral"
+  },
+  {
+    "ticket_id": "T008",
+    "subject": "Wrong company name on invoice for tax purposes",
+    "body": "The invoice I received last month shows the wrong company name...",
+    "department": "Billing",
+    "urgency": "Normal",
+    "issue_summary": "An invoice contains an incorrect company name ('Acme Corp Ltd' vs 'Acme Corporation'), blocking tax documentation.",
+    "root_cause": "The company name was likely entered incorrectly during account setup or a recent profile update was not reflected in the billing system.",
+    "suggested_action": "Update the billing profile with the correct legal company name and reissue the corrected invoice.",
+    "sentiment": "Neutral"
+  },
+  {
+    "ticket_id": "T005",
+    "subject": "Profile picture not updating after upload",
+    "body": "I uploaded a new profile picture 3 days ago but it still shows my old one...",
+    "department": "Technical",
+    "urgency": "Low",
+    "issue_summary": "Profile picture upload appears successful but the old image persists after 3 days.",
+    "root_cause": "A CDN caching issue or a bug in the image processing pipeline is preventing the new image from being served.",
+    "suggested_action": "Trigger a cache invalidation for the user's profile image and verify the upload pipeline processes new images correctly.",
+    "sentiment": "Neutral"
+  },
+  {
+    "ticket_id": "T003",
+    "subject": "How do I export reports to Excel?",
+    "body": "I would like to know the steps to export my monthly reports to Excel format...",
+    "department": "Other",
+    "urgency": "Low",
+    "issue_summary": "Customer is asking how to export reports to Excel and whether scheduled exports are possible.",
+    "root_cause": "User is unfamiliar with the export feature — this is a documentation or discoverability issue rather than a technical problem.",
+    "suggested_action": "Reply with step-by-step export instructions and link to the relevant help center article. Check if scheduled export is a supported feature.",
+    "sentiment": "Satisfied"
+  }
+]
